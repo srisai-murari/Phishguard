@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Record - PhishProtect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="home.html" id="logo">
+            <img src="images/logo.png" alt="PhishProtect Logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="track-record.html">Track Record</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Track Record</h1>
+        <p>Learn about our history and success in protecting users from phishing attacks.</p>
+    
+        <div class="meter-container">
+            <div class="meter" id="websites-blocked">
+                <span class="meter-text">Websites Blocked</span>
+                <canvas id="blocked-canvas" width="150" height="150"></canvas>
+            </div>
+            <div class="meter" id="websites-identified">
+                <span class="meter-text">Websites Identified</span>
+                <canvas id="identified-canvas" width="150" height="150"></canvas>
+            </div>
+            <div class="meter" id="overall-score">
+                <span class="meter-text">Overall Score</span>
+                <canvas id="score-canvas" width="150" height="150"></canvas>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PhishProtect. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

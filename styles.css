@@ -1,0 +1,185 @@
+/* General reset and base styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f9f0; /* Light green background */
+}
+
+header {
+    background-color: #007f00; /* Dark green background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#logo img {
+    height: 100px; /* Increase the size of the logo */
+}
+
+nav ul {
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center align the nav items */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #007f00; /* Dark green background for the footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.meter-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.meter {
+    text-align: center;
+}
+
+.meter-text {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+canvas {
+    border-radius: 50%;
+    background: white; /* Ensure there's a background for the canvas */
+}
+
+
+/* Add to your existing styles.css */
+
+/* Hero Section Styling */
+#hero {
+    background-image: url('images/hero-bg.jpg'); /* Ensure you have this image or adjust the path */
+    background-size: cover;
+    color: rgb(134, 7, 7);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    background-color: #007f00;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #005b00;
+}
+
+/* Key Features Section Styling */  
+#features {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.feature-item {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+}
+
+.feature-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+#testimonials {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+#blog {
+    padding: 40px 20px;
+}
+
+#blog article {
+    margin-bottom: 20px;
+}
+
+#blog h3 a {
+    text-decoration: none;
+    color: #007f00;
+}
+
+#blog h3 a:hover {
+    text-decoration: underline;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #18e9cd;
+}
